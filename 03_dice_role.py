@@ -14,7 +14,7 @@ def roll_dice(amount: int = 2) -> list[int]:
 def main():
     while True:
         try:
-            user_input: str = input("How many diec would you like to roll? ")
+            user_input: str = input("How many dice would you like to roll? ")
             if user_input.lower() =='exit':
                 print("Thanks for playing")
                 break

@@ -26,3 +26,4 @@ while count <=3:
     count +=1
 if count > 3 :
     print(f"sorry, you've used all 3 chances. The correct number was: {rand}")
+
